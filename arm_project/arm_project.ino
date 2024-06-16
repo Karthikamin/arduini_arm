@@ -6,10 +6,11 @@ int var;
 int var1;
 int var2;
 void setup() {
+  //Attach servo to PWM pins 9,10,11
   servo1.attach(9);
   servo2.attach(10);
   servo3.attach(11);
-
+ // reading analog value from pin A1,A2,A3
 }
 
 void loop() {
